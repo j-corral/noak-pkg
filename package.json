@@ -1,0 +1,24 @@
+ {
+    "eslintConfig": {
+        "extends": [
+        "eslint-config-kdnj/react",
+        "plugin:@next/next/recommended"
+        ],
+        "ignorePatterns": [
+        "generated"
+        ],
+        "rules": {
+        "jsx-a11y/anchor-is-valid": [
+            "off"
+        ]
+        }
+  },
+  "lint-staged": {
+    "*.{js,json,md}": [
+      "prettier --write"
+    ],
+    "**/*.{js,jsx,ts,tsx}": [
+      "eslint --fix"
+    ]
+  }
+ }
