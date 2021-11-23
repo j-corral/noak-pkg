@@ -15,5 +15,17 @@
         "mainFile": "index.ts",
         "rootDir": "lib/emotion-style"
     },
+    "types/app": {
+        "scope": "hoomies.noak",
+        "version": "0.0.1",
+        "mainFile": "index.ts",
+        "rootDir": "types/app"
+    },
+    "types/component": {
+        "scope": "hoomies.noak",
+        "version": "0.0.1",
+        "mainFile": "index.ts",
+        "rootDir": "types/component"
+    },
     "$schema-version": "14.9.0"
 }

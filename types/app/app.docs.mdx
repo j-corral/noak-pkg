@@ -1,0 +1,17 @@
+---
+displayName: AppProps
+description: Extend Next AppProps
+labels: ['noak', 'types', 'app']
+---
+
+## usage in \_app.tsx
+
+```tsx
+import { AppProps } from '@hoomies/noak.types.app';
+
+function MyApp({ Component, pageProps }: AppProps) {
+  // ...
+}
+
+export default MyApp;
+```
