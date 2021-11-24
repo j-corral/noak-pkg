@@ -2,9 +2,11 @@ import React from 'react';
 import type { NextPage as DefaultNextPage } from 'next';
 import type { AppProps as DefaultAppProps } from 'next/app';
 
+import { RootLayoutProps } from '@hoomies/noak.layouts.root';
+
 export type NextPageProps = {
   pageLayout?: React.ComponentType;
-  rootProps?: Object;
+  rootProps?: RootLayoutProps;
   name?: string;
   title?: string;
 };
