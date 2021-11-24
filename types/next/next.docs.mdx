@@ -1,0 +1,76 @@
+---
+displayName: Next Custom Types
+description: Extend Next Types
+labels: ['noak', 'types', 'next']
+---
+
+## usage in \_app.tsx
+
+```tsx
+import { AppProps } from '@hoomies/noak.types.next';
+
+function MyApp({ Component, pageProps }: AppProps) {
+  // ...
+}
+
+export default MyApp;
+```
+
+## usage in pages/xxx.tsx
+
+```tsx
+import { NextPage } from '@hoomies/noak.types.next';
+
+const Home: NextPage = () => {
+  return <></>;
+};
+
+export default Home;
+```
+
+## Result
+
+Now you have an overrided version of `AppProps` and `NextPage` which brings a `layout` property inside your pages components.
+This is useful to apply a custom Layout to your pages.
+
+If No Layout is specified, Noak will automatically use the default Layout.
+
+### Apply custom layout to a page
+
+```tsx
+import { NextPage } from '@hoomies/noak.types.next';
+import { MyLayout } from '~layouts/MyLayout';
+
+const Home: NextPage = () => {
+  return <></>;
+};
+
+Home.layout = MyLayout;
+
+export default Home;
+```
+
+## Available types
+
+### NextPageProps
+
+```tsx
+type NextPageProps = {
+  layout?: React.ComponentType;
+  name?: string;
+};
+```
+
+### NextPage
+
+```tsx
+type NextPage<P = {}, IP = P> = DefaultNextPage<P, IP> & NextPageProps;
+```
+
+### AppProps
+
+```tsx
+interface AppProps extends DefaultAppProps {
+  Component: DefaultAppProps['Component'] & NextPageProps;
+}
+```
