@@ -9,15 +9,21 @@
  */
 
 {
-    "lib/emotion-style": {
+    "layouts/root": {
         "scope": "hoomies.noak",
         "version": "0.0.1",
+        "mainFile": "index.ts",
+        "rootDir": "layouts/root"
+    },
+    "lib/emotion-style": {
+        "scope": "hoomies.noak",
+        "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "lib/emotion-style"
     },
     "types/next": {
         "scope": "hoomies.noak",
-        "version": "0.0.1",
+        "version": "0.0.4",
         "mainFile": "index.ts",
         "rootDir": "types/next"
     },

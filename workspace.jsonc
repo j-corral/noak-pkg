@@ -39,10 +39,12 @@
     "packageManager": "teambit.dependencies/yarn",
     "policy": {
       "dependencies": {
+        "@chakra-ui/react": "1.7.2",
         "@testing-library/react": "12.1.2",
         "@testing-library/user-event": "13.5.0",
         "@types/jest": "27.0.2",
-        "next": "latest"
+        "next": "^12.0.4",
+        "next-translate": "1.2.0"
       },
       "peerDependencies": {
         "react": "17.0.2",
@@ -65,7 +67,7 @@
       /**
        * uncomment to apply the chosen environment on all components.
        **/
-      "teambit.react/react": { }
+      "teambit.react/react": {}
     },
     "lib/emotion-style": {
       "teambit.dependencies/dependency-resolver": {
