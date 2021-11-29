@@ -11,7 +11,7 @@
 {
     "layouts/root": {
         "scope": "hoomies.noak",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "layouts/root"
     },
@@ -23,7 +23,7 @@
     },
     "types/next": {
         "scope": "hoomies.noak",
-        "version": "0.0.4",
+        "version": "0.0.5",
         "mainFile": "index.ts",
         "rootDir": "types/next"
     },

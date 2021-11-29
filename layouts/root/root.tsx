@@ -38,18 +38,12 @@ export function RootLayout(props: RootLayoutProps) {
       <Head>
         <meta content="width=device-width, initial-scale=1.0" name="viewport" />
       </Head>
-      <Box {...frame}>
+      <Box m={0} p={0} {...frame}>
         <Center>
-          <Flex w={w} h={height} direction={direction} {...rest}>
-            <Box as="header" w={w}>
-              {header}
-            </Box>
-            <Box as="main" w={w}>
-              {props.children}
-            </Box>
-            <Box as="footer" w={w}>
-              {footer}
-            </Box>
+          <Flex m={0} p={0} w={w} h={height} direction={direction} {...rest}>
+            <Box as="header">{header}</Box>
+            <Box as="main">{props.children}</Box>
+            <Box as="footer">{footer}</Box>
           </Flex>
         </Center>
       </Box>
