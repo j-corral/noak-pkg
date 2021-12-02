@@ -9,6 +9,12 @@
  */
 
 {
+    "layouts/page/default": {
+        "scope": "hoomies.noak",
+        "version": "0.0.1",
+        "mainFile": "index.ts",
+        "rootDir": "layouts/page/default"
+    },
     "layouts/root": {
         "scope": "hoomies.noak",
         "version": "0.0.2",
