@@ -9,6 +9,12 @@
  */
 
 {
+    "components/switcher/locale": {
+        "scope": "hoomies.noak",
+        "version": "0.0.4",
+        "mainFile": "index.ts",
+        "rootDir": "components/switcher/locale"
+    },
     "layouts/page/default": {
         "scope": "hoomies.noak",
         "version": "0.0.1",

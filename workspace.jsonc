@@ -91,6 +91,16 @@
           }
         }
       }
+    },
+    "{components/switcher/*}": {
+      "teambit.dependencies/dependency-resolver": {
+        // this creates dependencies overrides for the current variant
+        "policy": {
+          "dependencies": {
+            "@hoomies/unagui.components.selector": "^0.0.5"
+          }
+        }
+      }
     }
   }
 }
