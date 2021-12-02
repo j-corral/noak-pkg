@@ -21,6 +21,12 @@
         "mainFile": "index.ts",
         "rootDir": "layouts/root"
     },
+    "lib/api": {
+        "scope": "hoomies.noak",
+        "version": "0.0.1",
+        "mainFile": "index.ts",
+        "rootDir": "lib/api"
+    },
     "lib/emotion-style": {
         "scope": "hoomies.noak",
         "version": "0.0.2",

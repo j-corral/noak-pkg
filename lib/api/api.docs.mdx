@@ -1,0 +1,21 @@
+---
+displayName: Api Handler
+description: 'Helper to create easy API in Next.js'
+labels: ['noak', 'lib', 'api']
+---
+
+### Component usage
+
+```js
+// pages/api/ping.ts
+
+import { createApiHandler } from '@hoomies/noak.lib.api';
+
+export default createApiHandler()
+  .get(async (_req, res) => {
+    return res.json({
+      message: "pong",
+      body: req.body as unknown,
+    });
+  });
+```

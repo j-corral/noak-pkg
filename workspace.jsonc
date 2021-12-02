@@ -81,6 +81,16 @@
           }
         }
       }
+    },
+    "lib/api": {
+      "teambit.dependencies/dependency-resolver": {
+        // this creates dependencies overrides for the current variant
+        "policy": {
+          "dependencies": {
+            "next-connect": "^0.11.0"
+          }
+        }
+      }
     }
   }
 }
