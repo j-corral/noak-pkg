@@ -10,7 +10,7 @@ export function LocaleSwitcher(props: SelectorPublicProps) {
   const { locales, pathname, asPath, query } = useRouter();
   const router = useRouter();
 
-  const [selectedValue, setSelectedValue] = React.useState('');
+  const [selectedValue, setSelectedValue] = React.useState(router?.locale ?? '');
 
   const handleLocaleChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
     setSelectedValue(event.target.value);
