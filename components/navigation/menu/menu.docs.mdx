@@ -1,0 +1,23 @@
+---
+displayName: 'Navigation Menu'
+description: 'Navigation Menu Component'
+labels: ['noak', 'component', 'navigation', 'menu']
+---
+
+import { Menu } from './menu';
+
+### Component usage
+
+```js
+import { Menu } from '@hoomies/noak.component.navigation.menu';
+
+const routes = [
+  {
+    literal: true,
+    label: 'Home',
+    path: '/',
+    icon: '',
+  },
+];
+<Menu routes={routes} />;
+```
