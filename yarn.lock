@@ -286,7 +286,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@chakra-ui/css-reset@npm:1.1.1":
+"@chakra-ui/css-reset@npm:1.1.1, @chakra-ui/css-reset@npm:^1.1.1":
   version: 1.1.1
   resolution: "@chakra-ui/css-reset@npm:1.1.1::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40chakra-ui%2Fcss-reset%2F-%2Fcss-reset-1.1.1.tgz"
   peerDependencies:
@@ -651,7 +651,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@chakra-ui/react@npm:1.7.2, @chakra-ui/react@npm:^1.7.2":
+"@chakra-ui/react@npm:^1.7.2":
   version: 1.7.2
   resolution: "@chakra-ui/react@npm:1.7.2::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40chakra-ui%2Freact%2F-%2Freact-1.7.2.tgz"
   dependencies:
@@ -1067,29 +1067,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@emotion/react@npm:^11.6":
-  version: 11.7.0
-  resolution: "@emotion/react@npm:11.7.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40emotion%2Freact%2F-%2Freact-11.7.0.tgz"
-  dependencies:
-    "@babel/runtime": ^7.13.10
-    "@emotion/cache": ^11.6.0
-    "@emotion/serialize": ^1.0.2
-    "@emotion/sheet": ^1.1.0
-    "@emotion/utils": ^1.0.0
-    "@emotion/weak-memoize": ^0.2.5
-    hoist-non-react-statics: ^3.3.1
-  peerDependencies:
-    "@babel/core": ^7.0.0
-    react: ">=16.8.0"
-  peerDependenciesMeta:
-    "@babel/core":
-      optional: true
-    "@types/react":
-      optional: true
-  checksum: 8b50d61caabe04ae413ae23b98c170da643754ec89f25eb001464095685686585d0f88988bc36432f231e6de6abdbee73308c42ba427de9eaaf5a54d7f2f6ae5
-  languageName: node
-  linkType: hard
-
 "@emotion/react@npm:^11.6.0":
   version: 11.6.0
   resolution: "@emotion/react@npm:11.6.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40emotion%2Freact%2F-%2Freact-11.6.0.tgz"
@@ -1150,7 +1127,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@emotion/styled@npm:^11.6, @emotion/styled@npm:^11.6.0":
+"@emotion/styled@npm:^11.6.0":
   version: 11.6.0
   resolution: "@emotion/styled@npm:11.6.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40emotion%2Fstyled%2F-%2Fstyled-11.6.0.tgz"
   dependencies:
@@ -1250,51 +1227,48 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@hoomies/unagui.components.selector@npm:^0.0.9":
-  version: 0.0.9
-  resolution: "@hoomies/unagui.components.selector@npm:0.0.9::__archiveUrl=https%3A%2F%2Fnode.bit.dev%2F%40hoomies%2Funagui.components.selector%2F-%2F%40hoomies-unagui.components.selector-0.0.9.tgz"
+"@hoomies/unagui.components.selector@npm:^0.0.10":
+  version: 0.0.10
+  resolution: "@hoomies/unagui.components.selector@npm:0.0.10::__archiveUrl=https%3A%2F%2Fnode.bit.dev%2F%40hoomies%2Funagui.components.selector%2F-%2F%40hoomies-unagui.components.selector-0.0.10.tgz"
   dependencies:
     "@chakra-ui/icons": 1.0.17
-    "@chakra-ui/react": 1.7.2
     "@hoomies/fuel.types.map": 0.0.1
     "@hoomies/fuel.types.react": 0.0.1
     core-js: ^3.0.0
   peerDependencies:
+    "@chakra-ui/react": ">=1.7.2"
     react: ^16.8.0 || ^17.0.0
     react-dom: ^16.8.0 || ^17.0.0
-  checksum: 8f6af365edb4a0689738a37e53fcc4cb936d132e70b85f4839b6dcf0a85a00911f6633fc892f07d0cd01772cc20e2e18f62fe2d328f3766679404270eb07730a
+  checksum: 4f5517b832c59bc9442d4713a31b0ee348b8598f9c71b7220e7106074d4a7eed881100eb2492e9b6f44c7136289928f1f7dc04eee62c9a87cd34193427867e2a
   languageName: node
   linkType: hard
 
-"@hoomies/unagui.components.switcher.theme@npm:^0.0.5":
-  version: 0.0.5
-  resolution: "@hoomies/unagui.components.switcher.theme@npm:0.0.5::__archiveUrl=https%3A%2F%2Fnode.bit.dev%2F%40hoomies%2Funagui.components.switcher.theme%2F-%2F%40hoomies-unagui.components.switcher.theme-0.0.5.tgz"
+"@hoomies/unagui.components.switcher.theme@npm:^0.0.6":
+  version: 0.0.6
+  resolution: "@hoomies/unagui.components.switcher.theme@npm:0.0.6::__archiveUrl=https%3A%2F%2Fnode.bit.dev%2F%40hoomies%2Funagui.components.switcher.theme%2F-%2F%40hoomies-unagui.components.switcher.theme-0.0.6.tgz"
   dependencies:
     "@chakra-ui/icons": 1.0.17
-    "@chakra-ui/react": 1.7.2
     core-js: ^3.0.0
   peerDependencies:
+    "@chakra-ui/react": ">=1.7.2"
     react: ^16.8.0 || ^17.0.0
     react-dom: ^16.8.0 || ^17.0.0
-  checksum: 9b496ba1c3e603e9260f0fd8101e4e14a1efed5a8b472c08b10813d5a8208c87d04858aa3d6a438eeff15a25017a0868f372dc27b2c9cc97a264eeae141a6c1b
+  checksum: b00670ca8869cc0ca9743c8e6bdf2278bf7997ee0dbf9f109da9b3a01ad4aa3ef6588abef80fef01ba54769d7d0046d8f73a66ef2f6c86c8bcf880816b0889aa
   languageName: node
   linkType: hard
 
-"@hoomies/unagui.theme.wrapper@npm:0.0.7":
-  version: 0.0.7
-  resolution: "@hoomies/unagui.theme.wrapper@npm:0.0.7::__archiveUrl=https%3A%2F%2Fnode.bit.dev%2F%40hoomies%2Funagui.theme.wrapper%2F-%2F%40hoomies-unagui.theme.wrapper-0.0.7.tgz"
+"@hoomies/unagui.theme.wrapper@npm:^0.0.8":
+  version: 0.0.8
+  resolution: "@hoomies/unagui.theme.wrapper@npm:0.0.8::__archiveUrl=https%3A%2F%2Fnode.bit.dev%2F%40hoomies%2Funagui.theme.wrapper%2F-%2F%40hoomies-unagui.theme.wrapper-0.0.8.tgz"
   dependencies:
-    "@chakra-ui/css-reset": 1.1.1
-    "@chakra-ui/react": ^1.7.2
+    "@chakra-ui/css-reset": ^1.1.1
     "@chakra-ui/utils": 1.9.1
-    "@emotion/react": ^11.6
-    "@emotion/styled": ^11.6
     core-js: ^3.0.0
-    framer-motion: ^5.3.3
   peerDependencies:
+    "@chakra-ui/react": ">=1.7.2"
     react: ^16.8.0 || ^17.0.0
     react-dom: ^16.8.0 || ^17.0.0
-  checksum: 78a9a4baa1d7417933e4f74faef4b6f21638511dfee2327b6dafc0c0f5c86c5c3caa43f26d693fd33395c1f47a56b92cef3113924a10ebfe64b9465bb9569d0d
+  checksum: bdc30bf38da993e41168a609adf8bb359f49010d59f9df6a1daca4f430adf630df65015a9024e2965bf29cca5f1a6da36282774c9a7c9f43d9f3b89e412796c0
   languageName: node
   linkType: hard
 
@@ -4779,9 +4753,9 @@ __metadata:
     "@emotion/react": ^11.6.0
     "@emotion/server": ^11.4.0
     "@emotion/styled": ^11.6.0
-    "@hoomies/unagui.components.selector": ^0.0.9
-    "@hoomies/unagui.components.switcher.theme": ^0.0.5
-    "@hoomies/unagui.theme.wrapper": 0.0.7
+    "@hoomies/unagui.components.selector": ^0.0.10
+    "@hoomies/unagui.components.switcher.theme": ^0.0.6
+    "@hoomies/unagui.theme.wrapper": ^0.0.8
     "@testing-library/react": 12.1.2
     "@types/jest": ^26.0.0
     "@types/node": 12.20.4

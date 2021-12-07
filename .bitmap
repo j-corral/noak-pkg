@@ -17,19 +17,19 @@
     },
     "components/navigation/menu": {
         "scope": "hoomies.noak",
-        "version": "0.0.3",
+        "version": "0.0.4",
         "mainFile": "index.ts",
         "rootDir": "components/navigation/menu"
     },
     "components/switcher/locale": {
         "scope": "hoomies.noak",
-        "version": "0.0.8",
+        "version": "0.0.9",
         "mainFile": "index.ts",
         "rootDir": "components/switcher/locale"
     },
     "components/switcher/theme": {
         "scope": "hoomies.noak",
-        "version": "0.0.2",
+        "version": "0.0.4",
         "mainFile": "index.ts",
         "rootDir": "components/switcher/theme"
     },

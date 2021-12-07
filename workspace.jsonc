@@ -39,7 +39,7 @@
     "packageManager": "teambit.dependencies/yarn",
     "policy": {
       "dependencies": {
-        "@hoomies/unagui.theme.wrapper": "0.0.7",
+        "@hoomies/unagui.theme.wrapper": "^0.0.8",
         "next-translate": "^1",
         "uuid": "^8.3.2"
       },
@@ -110,7 +110,7 @@
         // this creates dependencies overrides for the current variant
         "policy": {
           "dependencies": {
-            "@hoomies/unagui.components.selector": "^0.0.9"
+            "@hoomies/unagui.components.selector": "^0.0.10"
           }
         }
       }
@@ -120,7 +120,7 @@
         // this creates dependencies overrides for the current variant
         "policy": {
           "dependencies": {
-            "@hoomies/unagui.components.switcher.theme": "^0.0.5"
+            "@hoomies/unagui.components.switcher.theme": "^0.0.6"
           }
         }
       }
