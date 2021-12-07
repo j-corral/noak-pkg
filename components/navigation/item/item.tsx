@@ -4,6 +4,8 @@ import { Button, ButtonProps } from '@chakra-ui/react';
 import NextLink, { LinkProps } from 'next/link';
 import useTranslation from 'next-translate/useTranslation';
 
+import { Capitalize } from '@hoomies/fuel.functions.capitalize';
+
 export type ItemProps = {
   link: {
     literal?: boolean;
@@ -14,7 +16,7 @@ export type ItemProps = {
   button?: ButtonProps;
 };
 
-export function Item({ link }: ItemProps) {
+export function Item({ link, button }: ItemProps) {
   const { t } = useTranslation();
   const patternRemoveSlashes: RegExp = new RegExp(/^\/+|\/+$/g);
 
@@ -32,8 +34,9 @@ export function Item({ link }: ItemProps) {
         color="gray.500"
         display="inline-flex"
         fontSize="lg"
+        {...button}
       >
-        {ButtonText}
+        <Capitalize>{ButtonText}</Capitalize>
       </Button>
     </NextLink>
   );
