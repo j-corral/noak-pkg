@@ -1250,9 +1250,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@hoomies/unagui.components.selector@npm:^0.0.8":
-  version: 0.0.8
-  resolution: "@hoomies/unagui.components.selector@npm:0.0.8::__archiveUrl=https%3A%2F%2Fnode.bit.dev%2F%40hoomies%2Funagui.components.selector%2F-%2F%40hoomies-unagui.components.selector-0.0.8.tgz"
+"@hoomies/unagui.components.selector@npm:^0.0.9":
+  version: 0.0.9
+  resolution: "@hoomies/unagui.components.selector@npm:0.0.9::__archiveUrl=https%3A%2F%2Fnode.bit.dev%2F%40hoomies%2Funagui.components.selector%2F-%2F%40hoomies-unagui.components.selector-0.0.9.tgz"
   dependencies:
     "@chakra-ui/icons": 1.0.17
     "@chakra-ui/react": 1.7.2
@@ -1262,13 +1262,13 @@ __metadata:
   peerDependencies:
     react: ^16.8.0 || ^17.0.0
     react-dom: ^16.8.0 || ^17.0.0
-  checksum: 5c52b08cd5e5979814f1d4b173f01a9cd063f2d62657757a3a4998563890c92e64595435d11e054c958e4839547af8b3fa1a3889a60a091835c506588a2f2447
+  checksum: 8f6af365edb4a0689738a37e53fcc4cb936d132e70b85f4839b6dcf0a85a00911f6633fc892f07d0cd01772cc20e2e18f62fe2d328f3766679404270eb07730a
   languageName: node
   linkType: hard
 
-"@hoomies/unagui.components.switcher.theme@npm:0.0.2":
-  version: 0.0.2
-  resolution: "@hoomies/unagui.components.switcher.theme@npm:0.0.2::__archiveUrl=https%3A%2F%2Fnode.bit.dev%2F%40hoomies%2Funagui.components.switcher.theme%2F-%2F%40hoomies-unagui.components.switcher.theme-0.0.2.tgz"
+"@hoomies/unagui.components.switcher.theme@npm:^0.0.5":
+  version: 0.0.5
+  resolution: "@hoomies/unagui.components.switcher.theme@npm:0.0.5::__archiveUrl=https%3A%2F%2Fnode.bit.dev%2F%40hoomies%2Funagui.components.switcher.theme%2F-%2F%40hoomies-unagui.components.switcher.theme-0.0.5.tgz"
   dependencies:
     "@chakra-ui/icons": 1.0.17
     "@chakra-ui/react": 1.7.2
@@ -1276,7 +1276,7 @@ __metadata:
   peerDependencies:
     react: ^16.8.0 || ^17.0.0
     react-dom: ^16.8.0 || ^17.0.0
-  checksum: 57928cfeafcc5de29b0a8a8d669f675cac5c024c23f42569217c7cc3a52643216bf9103a36ae5e0f245ee8236bf73eced56f1d1af67a3f09675eb7362953d321
+  checksum: 9b496ba1c3e603e9260f0fd8101e4e14a1efed5a8b472c08b10813d5a8208c87d04858aa3d6a438eeff15a25017a0868f372dc27b2c9cc97a264eeae141a6c1b
   languageName: node
   linkType: hard
 
@@ -4779,8 +4779,8 @@ __metadata:
     "@emotion/react": ^11.6.0
     "@emotion/server": ^11.4.0
     "@emotion/styled": ^11.6.0
-    "@hoomies/unagui.components.selector": ^0.0.8
-    "@hoomies/unagui.components.switcher.theme": 0.0.2
+    "@hoomies/unagui.components.selector": ^0.0.9
+    "@hoomies/unagui.components.switcher.theme": ^0.0.5
     "@hoomies/unagui.theme.wrapper": 0.0.7
     "@testing-library/react": 12.1.2
     "@types/jest": ^26.0.0

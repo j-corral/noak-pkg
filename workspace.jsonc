@@ -110,7 +110,7 @@
         // this creates dependencies overrides for the current variant
         "policy": {
           "dependencies": {
-            "@hoomies/unagui.components.selector": "^0.0.8"
+            "@hoomies/unagui.components.selector": "^0.0.9"
           }
         }
       }
@@ -120,7 +120,7 @@
         // this creates dependencies overrides for the current variant
         "policy": {
           "dependencies": {
-            "@hoomies/unagui.components.switcher.theme": "0.0.2"
+            "@hoomies/unagui.components.switcher.theme": "^0.0.5"
           }
         }
       }
