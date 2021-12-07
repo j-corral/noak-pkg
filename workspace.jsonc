@@ -39,19 +39,17 @@
     "packageManager": "teambit.dependencies/yarn",
     "policy": {
       "dependencies": {
-        "@hoomies/unagui.theme.wrapper": "^0.0.6",
-        "@testing-library/react": "12.1.2",
-        "@testing-library/user-event": "13.5.0",
-        "@types/jest": "27.0.2",
-        "next": "^12",
+        "@hoomies/unagui.theme.wrapper": "0.0.7",
         "next-translate": "^1",
         "uuid": "^8.3.2"
       },
       "peerDependencies": {
+        "next": "^12",
         "react": "^17",
         "react-dom": "^17"
       }
-    }
+    },
+    "strictPeerDependencies": true
   },
   /**
    * workspace variants allow to set different subsets of configuration for components in your
@@ -69,6 +67,20 @@
        * uncomment to apply the chosen environment on all components.
        **/
       "teambit.react/react": {}
+    },
+    "{components/**}, {layouts/**}": {
+      "teambit.dependencies/dependency-resolver": {
+        // this creates dependencies overrides for the current variant
+        "policy": {
+          "dependencies": {
+            "@chakra-ui/react": "^1.7.2",
+            "framer-motion": "^5.3.3",
+            "@emotion/react": "^11",
+            "@emotion/styled": "^11"
+            //"@hoomies/unagui.theme.wrapper": "^0.0.7"
+          }
+        }
+      }
     },
     "lib/emotion-style": {
       "teambit.dependencies/dependency-resolver": {
@@ -93,25 +105,22 @@
         }
       }
     },
-    "{components/switcher/**}": {
+    "components/switcher/locale": {
       "teambit.dependencies/dependency-resolver": {
         // this creates dependencies overrides for the current variant
         "policy": {
           "dependencies": {
-            "@hoomies/unagui.components.selector": "^0.0.5"
+            "@hoomies/unagui.components.selector": "^0.0.8"
           }
         }
       }
     },
-    "{components/**}, {layouts/**}": {
+    "components/switcher/theme": {
       "teambit.dependencies/dependency-resolver": {
         // this creates dependencies overrides for the current variant
         "policy": {
           "dependencies": {
-            "@chakra-ui/react": "^1",
-            "framer-motion": "^5",
-            "@emotion/react": "^11",
-            "@emotion/styled": "^11",
+            "@hoomies/unagui.components.switcher.theme": "0.0.2"
           }
         }
       }

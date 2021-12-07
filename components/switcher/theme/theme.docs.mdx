@@ -1,0 +1,31 @@
+---
+displayName: 'ThemeSwitcher'
+description: 'Switch theme color between light and dark'
+labels: ['noak', 'component', 'switcher', 'theme']
+---
+
+import { ThemeSwitcher } from './theme';
+
+## translations
+
+This component is made to use the translations files in `public/locales/{lang}/theme.json`.
+
+You may edit this file to customize the component labels instead of adding props `labelLight` and `labelDark`.
+
+### Example translation file
+
+```json
+// public/locales/en/theme.json
+{ "mode": { "dark": "Turn on dark mode", "light": "Turn on light mode" } }
+```
+
+### Component usage
+
+```js
+import { ThemeSwitcher } from '@hoomies/noak.components.switcher.theme';
+<ThemeSwitcher />;
+```
+
+### More props
+
+The ThemeSwitcher component uses the [Unagui ThemeSwitcher Component](https://bit.dev/hoomies/unagui/components/switcher/theme) under the hood.

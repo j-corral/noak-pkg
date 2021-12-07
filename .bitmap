@@ -11,49 +11,55 @@
 {
     "components/navigation/item": {
         "scope": "hoomies.noak",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "components/navigation/item"
     },
     "components/navigation/menu": {
         "scope": "hoomies.noak",
-        "version": "0.0.2",
+        "version": "0.0.3",
         "mainFile": "index.ts",
         "rootDir": "components/navigation/menu"
     },
     "components/switcher/locale": {
         "scope": "hoomies.noak",
-        "version": "0.0.6",
+        "version": "0.0.7",
         "mainFile": "index.ts",
         "rootDir": "components/switcher/locale"
     },
+    "components/switcher/theme": {
+        "scope": "hoomies.noak",
+        "version": "0.0.1",
+        "mainFile": "index.ts",
+        "rootDir": "components/switcher/theme"
+    },
     "layouts/page/default": {
         "scope": "hoomies.noak",
-        "version": "0.0.2",
+        "version": "0.0.3",
         "mainFile": "index.ts",
         "rootDir": "layouts/page/default"
     },
     "layouts/root": {
         "scope": "hoomies.noak",
-        "version": "0.0.3",
+        "version": "0.0.4",
         "mainFile": "index.ts",
         "rootDir": "layouts/root"
     },
     "lib/api": {
         "scope": "hoomies.noak",
-        "version": "0.0.2",
+        "version": "0.0.3",
         "mainFile": "index.ts",
         "rootDir": "lib/api"
     },
     "lib/emotion-style": {
         "scope": "hoomies.noak",
-        "version": "0.0.3",
+        "version": "0.0.4",
         "mainFile": "index.ts",
         "rootDir": "lib/emotion-style"
     },
     "types/next": {
         "scope": "hoomies.noak",
-        "version": "0.0.6",
+        "version": "0.0.7",
         "mainFile": "index.ts",
         "rootDir": "types/next"
     },
