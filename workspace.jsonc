@@ -124,6 +124,16 @@
           }
         }
       }
-    }
+    },
+    "components/navigation/item": {
+      "teambit.dependencies/dependency-resolver": {
+        // this creates dependencies overrides for the current variant
+        "policy": {
+          "dependencies": {
+            "@hoomies/fuel.functions.capitalize": "^0.0.1"
+          }
+        }
+      }
+    },
   }
 }

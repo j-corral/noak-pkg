@@ -651,7 +651,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@chakra-ui/react@npm:^1.7.2":
+"@chakra-ui/react@npm:1.7.2":
   version: 1.7.2
   resolution: "@chakra-ui/react@npm:1.7.2::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40chakra-ui%2Freact%2F-%2Freact-1.7.2.tgz"
   dependencies:
@@ -1200,6 +1200,18 @@ __metadata:
   version: 9.2.1
   resolution: "@hapi/hoek@npm:9.2.1::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40hapi%2Fhoek%2F-%2Fhoek-9.2.1.tgz"
   checksum: 6a439f672df5f12f1d08d56967b4cb364ce05d81e95e3c3c1b88c5a98b917ca91c70e78cc0b2b4219a760cceec1f22d6658bfc93a83670cecc1ce9ca2247ebd8
+  languageName: node
+  linkType: hard
+
+"@hoomies/fuel.functions.capitalize@npm:^0.0.1":
+  version: 0.0.1
+  resolution: "@hoomies/fuel.functions.capitalize@npm:0.0.1::__archiveUrl=https%3A%2F%2Fnode.bit.dev%2F%40hoomies%2Ffuel.functions.capitalize%2F-%2F%40hoomies-fuel.functions.capitalize-0.0.1.tgz"
+  dependencies:
+    core-js: ^3.0.0
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  checksum: b8d05a84cb4787697afdaad3f05dbc747c8d4852a2751c3b2ed77257c5f63c0f37ae8dec4cfa11dcf04cc651cd165d00a31abb5d7a75101c4f3a46b0b0019e87
   languageName: node
   linkType: hard
 
@@ -4748,11 +4760,12 @@ __metadata:
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
     "@babel/runtime": 7.12.18
-    "@chakra-ui/react": ^1.7.2
+    "@chakra-ui/react": 1.7.2
     "@emotion/cache": ^11.6.0
     "@emotion/react": ^11.6.0
     "@emotion/server": ^11.4.0
     "@emotion/styled": ^11.6.0
+    "@hoomies/fuel.functions.capitalize": ^0.0.1
     "@hoomies/unagui.components.selector": ^0.0.10
     "@hoomies/unagui.components.switcher.theme": ^0.0.6
     "@hoomies/unagui.theme.wrapper": ^0.0.8
