@@ -1,0 +1,42 @@
+---
+displayName: 'Footer Component'
+description: 'Default Noak Footer component extended from Unagui'
+labels: ['noak', 'component', 'footer']
+---
+
+import { Footer } from './footer';
+
+### Component usage
+
+```tsx
+import { Footer } from '@hoomies/noak.components.footer';
+// optional copyright
+const copyright = { author: 'Unagui', beginYear: 2021 };
+
+// optional copyright
+const credits = [
+  { text: 'Powered By', name: 'Unagui', url: 'https://www.my.app' },
+  { text: 'Developer', name: 'John Doe', url: 'https://www.john-doe.fr' },
+];
+
+// optional routes
+const routes = [
+  {
+    literal: true,
+    label: 'Home',
+    path: '/',
+    icon: '',
+  },
+];
+<Footer copyright={copyright} credits={credits} routes={routes} />;
+```
+
+### More props
+
+The Footer component is extended from the [Unagui Footer Component](https://bit.dev/hoomies/unagui/components/footer).
+
+The Footer component uses the [Copyright Component](https://bit.dev/hoomies/unagui/components/copyright).
+
+The Footer component uses the [CreditList Component](https://bit.dev/hoomies/unagui/components/credits).
+
+The Footer component uses the [Menu Component](https://bit.dev/hoomies/noak/components/navigation/menu).

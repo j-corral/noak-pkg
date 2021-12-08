@@ -9,15 +9,21 @@
  */
 
 {
+    "components/footer": {
+        "scope": "hoomies.noak",
+        "version": "0.0.1",
+        "mainFile": "index.ts",
+        "rootDir": "components/footer"
+    },
     "components/navigation/item": {
         "scope": "hoomies.noak",
-        "version": "0.0.2",
+        "version": "0.0.3",
         "mainFile": "index.ts",
         "rootDir": "components/navigation/item"
     },
     "components/navigation/menu": {
         "scope": "hoomies.noak",
-        "version": "0.0.4",
+        "version": "0.0.5",
         "mainFile": "index.ts",
         "rootDir": "components/navigation/menu"
     },
