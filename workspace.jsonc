@@ -44,9 +44,9 @@
         "uuid": "^8.3.2"
       },
       "peerDependencies": {
-        "next": "^12",
-        "react": "^17",
-        "react-dom": "^17"
+        "next": ">=12",
+        "react": ">=17",
+        "react-dom": ">=17"
       }
     },
     "strictPeerDependencies": true
@@ -131,6 +131,18 @@
         "policy": {
           "dependencies": {
             "@hoomies/fuel.functions.capitalize": "^0.0.1"
+          }
+        }
+      }
+    },
+    "functions/get-components": {
+      "teambit.dependencies/dependency-resolver": {
+        // this creates dependencies overrides for the current variant
+        "policy": {
+          "dependencies": {
+            "@hoomies/fuel.types.object": "^0.0.2",
+            "@hoomies/fuel.functions.filter.object.prop": "^0.0.2",
+            "@hoomies/unagui.functions.get-components": "^0.0.2"
           }
         }
       }

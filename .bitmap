@@ -11,25 +11,25 @@
 {
     "components/footer": {
         "scope": "hoomies.noak",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "components/footer"
     },
     "components/navigation/item": {
         "scope": "hoomies.noak",
-        "version": "0.0.3",
+        "version": "0.0.4",
         "mainFile": "index.ts",
         "rootDir": "components/navigation/item"
     },
     "components/navigation/menu": {
         "scope": "hoomies.noak",
-        "version": "0.0.5",
+        "version": "0.0.6",
         "mainFile": "index.ts",
         "rootDir": "components/navigation/menu"
     },
     "components/switcher/locale": {
         "scope": "hoomies.noak",
-        "version": "0.0.9",
+        "version": "0.0.10",
         "mainFile": "index.ts",
         "rootDir": "components/switcher/locale"
     },
@@ -39,6 +39,12 @@
         "mainFile": "index.ts",
         "rootDir": "components/switcher/theme"
     },
+    "functions/get-components": {
+        "scope": "hoomies.noak",
+        "version": "0.0.3",
+        "mainFile": "index.ts",
+        "rootDir": "functions/get-components"
+    },
     "layouts/page/default": {
         "scope": "hoomies.noak",
         "version": "0.0.3",
@@ -47,25 +53,25 @@
     },
     "layouts/root": {
         "scope": "hoomies.noak",
-        "version": "0.0.4",
+        "version": "0.0.5",
         "mainFile": "index.ts",
         "rootDir": "layouts/root"
     },
     "lib/api": {
         "scope": "hoomies.noak",
-        "version": "0.0.3",
+        "version": "0.0.4",
         "mainFile": "index.ts",
         "rootDir": "lib/api"
     },
     "lib/emotion-style": {
         "scope": "hoomies.noak",
-        "version": "0.0.4",
+        "version": "0.0.5",
         "mainFile": "index.ts",
         "rootDir": "lib/emotion-style"
     },
     "types/next": {
         "scope": "hoomies.noak",
-        "version": "0.0.7",
+        "version": "0.0.8",
         "mainFile": "index.ts",
         "rootDir": "types/next"
     },

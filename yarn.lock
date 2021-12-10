@@ -1215,6 +1215,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@hoomies/fuel.functions.filter.object.prop@npm:0.0.2, @hoomies/fuel.functions.filter.object.prop@npm:^0.0.2":
+  version: 0.0.2
+  resolution: "@hoomies/fuel.functions.filter.object.prop@npm:0.0.2::__archiveUrl=https%3A%2F%2Fnode.bit.dev%2F%40hoomies%2Ffuel.functions.filter.object.prop%2F-%2F%40hoomies-fuel.functions.filter.object.prop-0.0.2.tgz"
+  dependencies:
+    "@hoomies/fuel.types.object": 0.0.2
+    core-js: ^3.0.0
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  checksum: 39168681b1c4cca51b88b98f1f50fe4b74b3066c50a91bc5c66027c0b1c5b6fb0e31864a183daaf3b5197fe7db42e5d5d85644a6a368f778f8fe7f8c2cce4b44
+  languageName: node
+  linkType: hard
+
 "@hoomies/fuel.types.map@npm:0.0.1":
   version: 0.0.1
   resolution: "@hoomies/fuel.types.map@npm:0.0.1::__archiveUrl=https%3A%2F%2Fnode.bit.dev%2F%40hoomies%2Ffuel.types.map%2F-%2F%40hoomies-fuel.types.map-0.0.1.tgz"
@@ -1224,6 +1237,18 @@ __metadata:
     react: ^16.8.0 || ^17.0.0
     react-dom: ^16.8.0 || ^17.0.0
   checksum: 9063384c1744f05aa72d91f63c01013680671593fd0558d7417ec42af144df0b019915698325d03a611014ef9fb4fae5635b0813a2bc018eac889994e4a4fb31
+  languageName: node
+  linkType: hard
+
+"@hoomies/fuel.types.object@npm:0.0.2, @hoomies/fuel.types.object@npm:^0.0.2":
+  version: 0.0.2
+  resolution: "@hoomies/fuel.types.object@npm:0.0.2::__archiveUrl=https%3A%2F%2Fnode.bit.dev%2F%40hoomies%2Ffuel.types.object%2F-%2F%40hoomies-fuel.types.object-0.0.2.tgz"
+  dependencies:
+    core-js: ^3.0.0
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  checksum: d38547d252cfca3ff6a4069657f50daa9e3391a80f59c9429839998cd5b566d893e3978d844c0ca13115dcf0f8bbb3e8edde4a5dc983e748d0c35746603df400
   languageName: node
   linkType: hard
 
@@ -1239,7 +1264,154 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@hoomies/unagui.components.selector@npm:^0.0.10":
+"@hoomies/unagui.components.boxer@npm:0.0.7":
+  version: 0.0.7
+  resolution: "@hoomies/unagui.components.boxer@npm:0.0.7::__archiveUrl=https%3A%2F%2Fnode.bit.dev%2F%40hoomies%2Funagui.components.boxer%2F-%2F%40hoomies-unagui.components.boxer-0.0.7.tgz"
+  dependencies:
+    "@chakra-ui/css-reset": ^1.1.1
+    core-js: ^3.0.0
+  peerDependencies:
+    "@chakra-ui/react": ">=1.7.2"
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  checksum: c9759a5c67abdd6a6e014bc1a8f9387deca1bc8323026a727afb3b018238d23530cf5d90286a16c1cd3ecd879e3d42b6e66fbaa129e7d19d2a010c8a626e83fa
+  languageName: node
+  linkType: hard
+
+"@hoomies/unagui.components.boxer@npm:0.0.8":
+  version: 0.0.8
+  resolution: "@hoomies/unagui.components.boxer@npm:0.0.8::__archiveUrl=https%3A%2F%2Fnode.bit.dev%2F%40hoomies%2Funagui.components.boxer%2F-%2F%40hoomies-unagui.components.boxer-0.0.8.tgz"
+  dependencies:
+    "@chakra-ui/css-reset": ^1.1.1
+    core-js: ^3.0.0
+  peerDependencies:
+    "@chakra-ui/react": ">=1.7.2"
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  checksum: 5e414dd01cd207ed7b09da7cfa3e4935c87d99c2984fdb4770a10da277a1db71979b6a43e005331c57a7da659f9f0787fcc659528657cabdb1b299ee709a198d
+  languageName: node
+  linkType: hard
+
+"@hoomies/unagui.components.copyright@npm:0.0.5":
+  version: 0.0.5
+  resolution: "@hoomies/unagui.components.copyright@npm:0.0.5::__archiveUrl=https%3A%2F%2Fnode.bit.dev%2F%40hoomies%2Funagui.components.copyright%2F-%2F%40hoomies-unagui.components.copyright-0.0.5.tgz"
+  dependencies:
+    "@chakra-ui/css-reset": ^1.1.1
+    core-js: ^3.0.0
+  peerDependencies:
+    "@chakra-ui/react": ">=1.7.2"
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  checksum: 93c7b78bc0051e9a0912a85f8182c63751c7ad1f5a4eeec7cce2303874d9c3e1ce9384da1ab7142df2c2e76ae1945453e48b3a05ed0cc43e0027cc20373e6a1a
+  languageName: node
+  linkType: hard
+
+"@hoomies/unagui.components.credits@npm:0.0.6":
+  version: 0.0.6
+  resolution: "@hoomies/unagui.components.credits@npm:0.0.6::__archiveUrl=https%3A%2F%2Fnode.bit.dev%2F%40hoomies%2Funagui.components.credits%2F-%2F%40hoomies-unagui.components.credits-0.0.6.tgz"
+  dependencies:
+    "@chakra-ui/css-reset": ^1.1.1
+    core-js: ^3.0.0
+    uuid: ^8.3
+  peerDependencies:
+    "@chakra-ui/react": ">=1.7.2"
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  checksum: 412323df39c3bc0844e00577c21904d98b61fdcdd962a5ec4000c1cc1b03cbcd618ee188d7c96a49696912b49a3e1d1dcddef9541506f12c687fd891f317449d
+  languageName: node
+  linkType: hard
+
+"@hoomies/unagui.components.footer@npm:0.0.6":
+  version: 0.0.6
+  resolution: "@hoomies/unagui.components.footer@npm:0.0.6::__archiveUrl=https%3A%2F%2Fnode.bit.dev%2F%40hoomies%2Funagui.components.footer%2F-%2F%40hoomies-unagui.components.footer-0.0.6.tgz"
+  dependencies:
+    "@chakra-ui/css-reset": ^1.1.1
+    "@hoomies/unagui.components.boxer": 0.0.7
+    "@hoomies/unagui.components.copyright": 0.0.5
+    "@hoomies/unagui.components.credits": 0.0.6
+    core-js: ^3.0.0
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  checksum: 61b4e1a42e24eab0301b54a3171969f1adac2bf29b7fedfd1cfe522dcf76fe6d5a73b6f58d5a6ad5db56b61df14a2e99700992a369bd3882107b7ec6de101a0b
+  languageName: node
+  linkType: hard
+
+"@hoomies/unagui.components.footer@npm:0.0.7":
+  version: 0.0.7
+  resolution: "@hoomies/unagui.components.footer@npm:0.0.7::__archiveUrl=https%3A%2F%2Fnode.bit.dev%2F%40hoomies%2Funagui.components.footer%2F-%2F%40hoomies-unagui.components.footer-0.0.7.tgz"
+  dependencies:
+    "@chakra-ui/css-reset": ^1.1.1
+    "@hoomies/unagui.components.boxer": 0.0.8
+    "@hoomies/unagui.components.copyright": 0.0.5
+    "@hoomies/unagui.components.credits": 0.0.6
+    core-js: ^3.0.0
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  checksum: 81993adec01f1061e354bb3ae526ca03d366834dfb98886fd4cc4c91d66b5699585a1c3a88385c1c1ee7593fd6747942f74007396b07ab8caf477953deb7be4b
+  languageName: node
+  linkType: hard
+
+"@hoomies/unagui.components.header@npm:0.0.7":
+  version: 0.0.7
+  resolution: "@hoomies/unagui.components.header@npm:0.0.7::__archiveUrl=https%3A%2F%2Fnode.bit.dev%2F%40hoomies%2Funagui.components.header%2F-%2F%40hoomies-unagui.components.header-0.0.7.tgz"
+  dependencies:
+    "@chakra-ui/css-reset": ^1.1.1
+    "@hoomies/unagui.components.boxer": 0.0.8
+    core-js: ^3.0.0
+  peerDependencies:
+    "@chakra-ui/react": ">=1.7.2"
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  checksum: ea629e8c535ec44be341427a2bcce35736870a7fafb9ca3eaa9ddb0cdca81c3fd00b0d24ee1f7c5d73d8b5f4860bcaa41586222f9b8fcac8793ed11fa7894f24
+  languageName: node
+  linkType: hard
+
+"@hoomies/unagui.components.hero@npm:0.0.12":
+  version: 0.0.12
+  resolution: "@hoomies/unagui.components.hero@npm:0.0.12::__archiveUrl=https%3A%2F%2Fnode.bit.dev%2F%40hoomies%2Funagui.components.hero%2F-%2F%40hoomies-unagui.components.hero-0.0.12.tgz"
+  dependencies:
+    "@chakra-ui/css-reset": ^1.1.1
+    "@hoomies/unagui.components.section": 0.0.10
+    core-js: ^3.0.0
+  peerDependencies:
+    "@chakra-ui/react": ">=1.7.2"
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  checksum: 1c94056a86f1750b4322dc67a2a3db9ac5b7238cb28c543068d81a3581986268f7996113130558d5f6c75ffb1d2320382a6be24863a70476b1e5b2f8872e27e9
+  languageName: node
+  linkType: hard
+
+"@hoomies/unagui.components.icon@npm:0.0.6":
+  version: 0.0.6
+  resolution: "@hoomies/unagui.components.icon@npm:0.0.6::__archiveUrl=https%3A%2F%2Fnode.bit.dev%2F%40hoomies%2Funagui.components.icon%2F-%2F%40hoomies-unagui.components.icon-0.0.6.tgz"
+  dependencies:
+    "@chakra-ui/icons": 1.0.17
+    core-js: ^3.0.0
+  peerDependencies:
+    "@chakra-ui/react": ">=1.7.2"
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  checksum: 397447293a9138021a63f0c32d8781877458bb308a8113a92def8c40aff5dabde93dcecc2883ab9dc809707512143659f30164b924bf7cf6960e192cc8e24867
+  languageName: node
+  linkType: hard
+
+"@hoomies/unagui.components.section@npm:0.0.10":
+  version: 0.0.10
+  resolution: "@hoomies/unagui.components.section@npm:0.0.10::__archiveUrl=https%3A%2F%2Fnode.bit.dev%2F%40hoomies%2Funagui.components.section%2F-%2F%40hoomies-unagui.components.section-0.0.10.tgz"
+  dependencies:
+    "@chakra-ui/css-reset": ^1.1.1
+    core-js: ^3.0.0
+  peerDependencies:
+    "@chakra-ui/react": ">=1.7.2"
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  checksum: b30d163e3f3dc632d7884aa73de438594cbf85d7f3a79a3508b7599fffb2e47e70489a3ab22875841b3f4d30bdeafa722ed76c2ccf4fb2c48d235a41feadd577
+  languageName: node
+  linkType: hard
+
+"@hoomies/unagui.components.selector@npm:0.0.10, @hoomies/unagui.components.selector@npm:^0.0.10":
   version: 0.0.10
   resolution: "@hoomies/unagui.components.selector@npm:0.0.10::__archiveUrl=https%3A%2F%2Fnode.bit.dev%2F%40hoomies%2Funagui.components.selector%2F-%2F%40hoomies-unagui.components.selector-0.0.10.tgz"
   dependencies:
@@ -1255,7 +1427,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@hoomies/unagui.components.switcher.theme@npm:^0.0.6":
+"@hoomies/unagui.components.switcher.theme@npm:0.0.6, @hoomies/unagui.components.switcher.theme@npm:^0.0.6":
   version: 0.0.6
   resolution: "@hoomies/unagui.components.switcher.theme@npm:0.0.6::__archiveUrl=https%3A%2F%2Fnode.bit.dev%2F%40hoomies%2Funagui.components.switcher.theme%2F-%2F%40hoomies-unagui.components.switcher.theme-0.0.6.tgz"
   dependencies:
@@ -1266,6 +1438,33 @@ __metadata:
     react: ^16.8.0 || ^17.0.0
     react-dom: ^16.8.0 || ^17.0.0
   checksum: b00670ca8869cc0ca9743c8e6bdf2278bf7997ee0dbf9f109da9b3a01ad4aa3ef6588abef80fef01ba54769d7d0046d8f73a66ef2f6c86c8bcf880816b0889aa
+  languageName: node
+  linkType: hard
+
+"@hoomies/unagui.functions.get-components@npm:^0.0.2":
+  version: 0.0.2
+  resolution: "@hoomies/unagui.functions.get-components@npm:0.0.2::__archiveUrl=https%3A%2F%2Fnode.bit.dev%2F%40hoomies%2Funagui.functions.get-components%2F-%2F%40hoomies-unagui.functions.get-components-0.0.2.tgz"
+  dependencies:
+    "@hoomies/fuel.functions.filter.object.prop": 0.0.2
+    "@hoomies/fuel.types.object": 0.0.2
+    "@hoomies/unagui.components.boxer": 0.0.8
+    "@hoomies/unagui.components.copyright": 0.0.5
+    "@hoomies/unagui.components.credits": 0.0.6
+    "@hoomies/unagui.components.footer": 0.0.7
+    "@hoomies/unagui.components.header": 0.0.7
+    "@hoomies/unagui.components.hero": 0.0.12
+    "@hoomies/unagui.components.icon": 0.0.6
+    "@hoomies/unagui.components.section": 0.0.10
+    "@hoomies/unagui.components.selector": 0.0.10
+    "@hoomies/unagui.components.switcher.theme": 0.0.6
+    core-js: ^3.0.0
+    next: 12.0.4
+  peerDependencies:
+    "@chakra-ui/react": ">=1.7.2"
+    next: ">=12"
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  checksum: 071542f45ecd7c0b61a31e117c1c23fbc6f4062ab278c10d210c86f19c4f5e83c9e7e83d7d90643d437e5da095361ef96d172b26c004689623e6c81edfd12d75
   languageName: node
   linkType: hard
 
@@ -1317,6 +1516,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@next/env@npm:12.0.4":
+  version: 12.0.4
+  resolution: "@next/env@npm:12.0.4::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40next%2Fenv%2F-%2Fenv-12.0.4.tgz"
+  checksum: a7bb0bdff4a061e00b559582268f787f6f636003560f83f3624f035a9220356f50fc6ce5d1db620df5b183a40182bf5647a7bc33b15a1fb008ea7ca8e2b78d54
+  languageName: node
+  linkType: hard
+
 "@next/env@npm:12.0.7":
   version: 12.0.7
   resolution: "@next/env@npm:12.0.7::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40next%2Fenv%2F-%2Fenv-12.0.7.tgz"
@@ -1324,10 +1530,43 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@next/polyfill-module@npm:12.0.4":
+  version: 12.0.4
+  resolution: "@next/polyfill-module@npm:12.0.4::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40next%2Fpolyfill-module%2F-%2Fpolyfill-module-12.0.4.tgz"
+  checksum: 701f563ef8fbd0fb21d321713061e04e26b6ac7fd304ff0456f39495a2fd10f50539fcd5fcd22aee078993a7f7539f34e7532df4f9fa7add31aed5614daa2304
+  languageName: node
+  linkType: hard
+
 "@next/polyfill-module@npm:12.0.7":
   version: 12.0.7
   resolution: "@next/polyfill-module@npm:12.0.7::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40next%2Fpolyfill-module%2F-%2Fpolyfill-module-12.0.7.tgz"
   checksum: 6bf5bd8746eb8419196160b3e7f87b30ca25499bc40b125d82677401f853c4e2adf7b7f1fdf0b686ad24293839a3b78c2b36805802330ee9d09163a1a12c8e36
+  languageName: node
+  linkType: hard
+
+"@next/react-dev-overlay@npm:12.0.4":
+  version: 12.0.4
+  resolution: "@next/react-dev-overlay@npm:12.0.4::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40next%2Freact-dev-overlay%2F-%2Freact-dev-overlay-12.0.4.tgz"
+  dependencies:
+    "@babel/code-frame": 7.12.11
+    anser: 1.4.9
+    chalk: 4.0.0
+    classnames: 2.2.6
+    css.escape: 1.5.1
+    data-uri-to-buffer: 3.0.1
+    platform: 1.3.6
+    shell-quote: 1.7.3
+    source-map: 0.8.0-beta.0
+    stacktrace-parser: 0.1.10
+    strip-ansi: 6.0.1
+  peerDependencies:
+    react: ^17.0.2
+    react-dom: ^17.0.2
+    webpack: ^4 || ^5
+  peerDependenciesMeta:
+    webpack:
+      optional: true
+  checksum: ac54baf04117cf815f4872aba701b583312969cbf1ff882a471b8dc12c3bc5a5e2c59f530e6d97447afdf7bddc1edbf9d961b5c34b54691d13d4d0cf85a26f12
   languageName: node
   linkType: hard
 
@@ -1357,6 +1596,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@next/react-refresh-utils@npm:12.0.4":
+  version: 12.0.4
+  resolution: "@next/react-refresh-utils@npm:12.0.4::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40next%2Freact-refresh-utils%2F-%2Freact-refresh-utils-12.0.4.tgz"
+  peerDependencies:
+    react-refresh: 0.8.3
+    webpack: ^4 || ^5
+  peerDependenciesMeta:
+    webpack:
+      optional: true
+  checksum: 7c1c9c32848abda86f898950f9710121200b376fd58f248403e8205c12c8934ed11f230a2adf1f3d8f8ca692a7aa6abdc536bcbf02c99a9cb93f9c2ad3d2c6cf
+  languageName: node
+  linkType: hard
+
 "@next/react-refresh-utils@npm:12.0.7":
   version: 12.0.7
   resolution: "@next/react-refresh-utils@npm:12.0.7::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40next%2Freact-refresh-utils%2F-%2Freact-refresh-utils-12.0.7.tgz"
@@ -1370,10 +1622,24 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@next/swc-android-arm64@npm:12.0.4":
+  version: 12.0.4
+  resolution: "@next/swc-android-arm64@npm:12.0.4::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40next%2Fswc-android-arm64%2F-%2Fswc-android-arm64-12.0.4.tgz"
+  conditions: os=android & cpu=arm64
+  languageName: node
+  linkType: hard
+
 "@next/swc-android-arm64@npm:12.0.7":
   version: 12.0.7
   resolution: "@next/swc-android-arm64@npm:12.0.7::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40next%2Fswc-android-arm64%2F-%2Fswc-android-arm64-12.0.7.tgz"
   conditions: os=android & cpu=arm64
+  languageName: node
+  linkType: hard
+
+"@next/swc-darwin-arm64@npm:12.0.4":
+  version: 12.0.4
+  resolution: "@next/swc-darwin-arm64@npm:12.0.4::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40next%2Fswc-darwin-arm64%2F-%2Fswc-darwin-arm64-12.0.4.tgz"
+  conditions: os=darwin & cpu=arm64
   languageName: node
   linkType: hard
 
@@ -1384,10 +1650,24 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@next/swc-darwin-x64@npm:12.0.4":
+  version: 12.0.4
+  resolution: "@next/swc-darwin-x64@npm:12.0.4::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40next%2Fswc-darwin-x64%2F-%2Fswc-darwin-x64-12.0.4.tgz"
+  conditions: os=darwin & cpu=x64
+  languageName: node
+  linkType: hard
+
 "@next/swc-darwin-x64@npm:12.0.7":
   version: 12.0.7
   resolution: "@next/swc-darwin-x64@npm:12.0.7::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40next%2Fswc-darwin-x64%2F-%2Fswc-darwin-x64-12.0.7.tgz"
   conditions: os=darwin & cpu=x64
+  languageName: node
+  linkType: hard
+
+"@next/swc-linux-arm-gnueabihf@npm:12.0.4":
+  version: 12.0.4
+  resolution: "@next/swc-linux-arm-gnueabihf@npm:12.0.4::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40next%2Fswc-linux-arm-gnueabihf%2F-%2Fswc-linux-arm-gnueabihf-12.0.4.tgz"
+  conditions: os=linux & cpu=arm
   languageName: node
   linkType: hard
 
@@ -1398,9 +1678,23 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@next/swc-linux-arm64-gnu@npm:12.0.4":
+  version: 12.0.4
+  resolution: "@next/swc-linux-arm64-gnu@npm:12.0.4::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40next%2Fswc-linux-arm64-gnu%2F-%2Fswc-linux-arm64-gnu-12.0.4.tgz"
+  conditions: os=linux & cpu=arm64
+  languageName: node
+  linkType: hard
+
 "@next/swc-linux-arm64-gnu@npm:12.0.7":
   version: 12.0.7
   resolution: "@next/swc-linux-arm64-gnu@npm:12.0.7::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40next%2Fswc-linux-arm64-gnu%2F-%2Fswc-linux-arm64-gnu-12.0.7.tgz"
+  conditions: os=linux & cpu=arm64
+  languageName: node
+  linkType: hard
+
+"@next/swc-linux-arm64-musl@npm:12.0.4":
+  version: 12.0.4
+  resolution: "@next/swc-linux-arm64-musl@npm:12.0.4::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40next%2Fswc-linux-arm64-musl%2F-%2Fswc-linux-arm64-musl-12.0.4.tgz"
   conditions: os=linux & cpu=arm64
   languageName: node
   linkType: hard
@@ -1412,9 +1706,23 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@next/swc-linux-x64-gnu@npm:12.0.4":
+  version: 12.0.4
+  resolution: "@next/swc-linux-x64-gnu@npm:12.0.4::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40next%2Fswc-linux-x64-gnu%2F-%2Fswc-linux-x64-gnu-12.0.4.tgz"
+  conditions: os=linux & cpu=x64
+  languageName: node
+  linkType: hard
+
 "@next/swc-linux-x64-gnu@npm:12.0.7":
   version: 12.0.7
   resolution: "@next/swc-linux-x64-gnu@npm:12.0.7::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40next%2Fswc-linux-x64-gnu%2F-%2Fswc-linux-x64-gnu-12.0.7.tgz"
+  conditions: os=linux & cpu=x64
+  languageName: node
+  linkType: hard
+
+"@next/swc-linux-x64-musl@npm:12.0.4":
+  version: 12.0.4
+  resolution: "@next/swc-linux-x64-musl@npm:12.0.4::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40next%2Fswc-linux-x64-musl%2F-%2Fswc-linux-x64-musl-12.0.4.tgz"
   conditions: os=linux & cpu=x64
   languageName: node
   linkType: hard
@@ -1426,6 +1734,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@next/swc-win32-arm64-msvc@npm:12.0.4":
+  version: 12.0.4
+  resolution: "@next/swc-win32-arm64-msvc@npm:12.0.4::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40next%2Fswc-win32-arm64-msvc%2F-%2Fswc-win32-arm64-msvc-12.0.4.tgz"
+  conditions: os=win32 & cpu=arm64
+  languageName: node
+  linkType: hard
+
 "@next/swc-win32-arm64-msvc@npm:12.0.7":
   version: 12.0.7
   resolution: "@next/swc-win32-arm64-msvc@npm:12.0.7::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40next%2Fswc-win32-arm64-msvc%2F-%2Fswc-win32-arm64-msvc-12.0.7.tgz"
@@ -1433,10 +1748,24 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@next/swc-win32-ia32-msvc@npm:12.0.4":
+  version: 12.0.4
+  resolution: "@next/swc-win32-ia32-msvc@npm:12.0.4::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40next%2Fswc-win32-ia32-msvc%2F-%2Fswc-win32-ia32-msvc-12.0.4.tgz"
+  conditions: os=win32 & cpu=ia32
+  languageName: node
+  linkType: hard
+
 "@next/swc-win32-ia32-msvc@npm:12.0.7":
   version: 12.0.7
   resolution: "@next/swc-win32-ia32-msvc@npm:12.0.7::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40next%2Fswc-win32-ia32-msvc%2F-%2Fswc-win32-ia32-msvc-12.0.7.tgz"
   conditions: os=win32 & cpu=ia32
+  languageName: node
+  linkType: hard
+
+"@next/swc-win32-x64-msvc@npm:12.0.4":
+  version: 12.0.4
+  resolution: "@next/swc-win32-x64-msvc@npm:12.0.4::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40next%2Fswc-win32-x64-msvc%2F-%2Fswc-win32-x64-msvc-12.0.4.tgz"
+  conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
 
@@ -1826,7 +2155,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "api-84f942@workspace:lib/api"
   peerDependencies:
-    next: ^12
+    next: ">=12"
     react: ^16.8.0 || ^17.0.0
     react-dom: ^16.8.0 || ^17.0.0
   languageName: unknown
@@ -2638,7 +2967,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "emotion-style-ff3cd8@workspace:lib/emotion-style"
   peerDependencies:
-    next: ^12
+    next: ">=12"
     react: ^16.8.0 || ^17.0.0
     react-dom: ^16.8.0 || ^17.0.0
   languageName: unknown
@@ -2814,6 +3143,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"footer-7ef7c3@workspace:components/footer":
+  version: 0.0.0-use.local
+  resolution: "footer-7ef7c3@workspace:components/footer"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
 "foreach@npm:^2.0.5":
   version: 2.0.5
   resolution: "foreach@npm:2.0.5::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fforeach%2F-%2Fforeach-2.0.5.tgz"
@@ -2926,6 +3264,16 @@ __metadata:
   checksum: 637b34c84f518defa89319dbef68211a24e9302182ad2a619e3be1be5b7dcf2a962c8359e889294af667440f4722e7e6e61671859e00bd8ec280a136ded89b25
   languageName: node
   linkType: hard
+
+"get-components-ecb8b2@workspace:functions/get-components":
+  version: 0.0.0-use.local
+  resolution: "get-components-ecb8b2@workspace:functions/get-components"
+  peerDependencies:
+    next: ">=12"
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
 
 "get-intrinsic@npm:^1.0.2, get-intrinsic@npm:^1.1.0, get-intrinsic@npm:^1.1.1":
   version: 1.1.1
@@ -3518,7 +3866,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "item-eb03d6@workspace:components/navigation/item"
   peerDependencies:
-    next: ^12
+    next: ">=12"
     react: ^16.8.0 || ^17.0.0
     react-dom: ^16.8.0 || ^17.0.0
   languageName: unknown
@@ -3620,7 +3968,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "locale-25bcda@workspace:components/switcher/locale"
   peerDependencies:
-    next: ^12
+    next: ">=12"
     react: ^16.8.0 || ^17.0.0
     react-dom: ^16.8.0 || ^17.0.0
   languageName: unknown
@@ -3910,7 +4258,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "next-c6c6ee@workspace:types/next"
   peerDependencies:
-    next: ^12
+    next: ">=12"
     react: ^16.8.0 || ^17.0.0
     react-dom: ^16.8.0 || ^17.0.0
   languageName: unknown
@@ -3935,7 +4283,113 @@ __metadata:
   languageName: node
   linkType: hard
 
-"next@npm:^12":
+"next@npm:12.0.4":
+  version: 12.0.4
+  resolution: "next@npm:12.0.4::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fnext%2F-%2Fnext-12.0.4.tgz"
+  dependencies:
+    "@babel/runtime": 7.15.4
+    "@hapi/accept": 5.0.2
+    "@napi-rs/triples": 1.0.3
+    "@next/env": 12.0.4
+    "@next/polyfill-module": 12.0.4
+    "@next/react-dev-overlay": 12.0.4
+    "@next/react-refresh-utils": 12.0.4
+    "@next/swc-android-arm64": 12.0.4
+    "@next/swc-darwin-arm64": 12.0.4
+    "@next/swc-darwin-x64": 12.0.4
+    "@next/swc-linux-arm-gnueabihf": 12.0.4
+    "@next/swc-linux-arm64-gnu": 12.0.4
+    "@next/swc-linux-arm64-musl": 12.0.4
+    "@next/swc-linux-x64-gnu": 12.0.4
+    "@next/swc-linux-x64-musl": 12.0.4
+    "@next/swc-win32-arm64-msvc": 12.0.4
+    "@next/swc-win32-ia32-msvc": 12.0.4
+    "@next/swc-win32-x64-msvc": 12.0.4
+    acorn: 8.5.0
+    assert: 2.0.0
+    browserify-zlib: 0.2.0
+    browserslist: 4.16.6
+    buffer: 5.6.0
+    caniuse-lite: ^1.0.30001228
+    chalk: 2.4.2
+    chokidar: 3.5.1
+    constants-browserify: 1.0.0
+    crypto-browserify: 3.12.0
+    cssnano-simple: 3.0.0
+    domain-browser: 4.19.0
+    encoding: 0.1.13
+    etag: 1.8.1
+    events: 3.3.0
+    find-cache-dir: 3.3.1
+    get-orientation: 1.1.2
+    https-browserify: 1.0.0
+    image-size: 1.0.0
+    jest-worker: 27.0.0-next.5
+    node-fetch: 2.6.1
+    node-html-parser: 1.4.9
+    os-browserify: 0.3.0
+    p-limit: 3.1.0
+    path-browserify: 1.0.1
+    postcss: 8.2.15
+    process: 0.11.10
+    querystring-es3: 0.2.1
+    raw-body: 2.4.1
+    react-is: 17.0.2
+    react-refresh: 0.8.3
+    regenerator-runtime: 0.13.4
+    stream-browserify: 3.0.0
+    stream-http: 3.1.1
+    string_decoder: 1.3.0
+    styled-jsx: 5.0.0-beta.3
+    timers-browserify: 2.0.12
+    tty-browserify: 0.0.1
+    use-subscription: 1.5.1
+    util: 0.12.4
+    vm-browserify: 1.1.2
+    watchpack: 2.1.1
+  peerDependencies:
+    fibers: ">= 3.1.0"
+    node-sass: ^4.0.0 || ^5.0.0 || ^6.0.0
+    react: ^17.0.2 || ^18.0.0
+    react-dom: ^17.0.2 || ^18.0.0
+    sass: ^1.3.0
+  dependenciesMeta:
+    "@next/swc-android-arm64":
+      optional: true
+    "@next/swc-darwin-arm64":
+      optional: true
+    "@next/swc-darwin-x64":
+      optional: true
+    "@next/swc-linux-arm-gnueabihf":
+      optional: true
+    "@next/swc-linux-arm64-gnu":
+      optional: true
+    "@next/swc-linux-arm64-musl":
+      optional: true
+    "@next/swc-linux-x64-gnu":
+      optional: true
+    "@next/swc-linux-x64-musl":
+      optional: true
+    "@next/swc-win32-arm64-msvc":
+      optional: true
+    "@next/swc-win32-ia32-msvc":
+      optional: true
+    "@next/swc-win32-x64-msvc":
+      optional: true
+  peerDependenciesMeta:
+    fibers:
+      optional: true
+    node-sass:
+      optional: true
+    sass:
+      optional: true
+  bin:
+    next: dist/bin/next
+  checksum: b9711e7d4242daaaffce72bfc4dce1d0107e0f48f03fd43190f2d81b8bb08f0c34d6ef0cf1f69885dc73a786a61cf0a7d06c2296c389dbb2dba5ddd66c38127b
+  languageName: node
+  linkType: hard
+
+"next@npm:>=12":
   version: 12.0.7
   resolution: "next@npm:12.0.7::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fnext%2F-%2Fnext-12.0.7.tgz"
   dependencies:
@@ -4503,7 +4957,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-dom@npm:^17":
+"react-dom@npm:>=17":
   version: 17.0.2
   resolution: "react-dom@npm:17.0.2::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Freact-dom%2F-%2Freact-dom-17.0.2.tgz"
   dependencies:
@@ -4612,7 +5066,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react@npm:^17":
+"react@npm:>=17":
   version: 17.0.2
   resolution: "react@npm:17.0.2::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Freact%2F-%2Freact-17.0.2.tgz"
   dependencies:
@@ -4749,7 +5203,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "root-05d4c6@workspace:layouts/root"
   peerDependencies:
-    next: ^12
+    next: ">=12"
     react: ^16.8.0 || ^17.0.0
     react-dom: ^16.8.0 || ^17.0.0
   languageName: unknown
@@ -4766,8 +5220,12 @@ __metadata:
     "@emotion/server": ^11.4.0
     "@emotion/styled": ^11.6.0
     "@hoomies/fuel.functions.capitalize": ^0.0.1
+    "@hoomies/fuel.functions.filter.object.prop": ^0.0.2
+    "@hoomies/fuel.types.object": ^0.0.2
+    "@hoomies/unagui.components.footer": 0.0.6
     "@hoomies/unagui.components.selector": ^0.0.10
     "@hoomies/unagui.components.switcher.theme": ^0.0.6
+    "@hoomies/unagui.functions.get-components": ^0.0.2
     "@hoomies/unagui.theme.wrapper": ^0.0.8
     "@testing-library/react": 12.1.2
     "@types/jest": ^26.0.0
@@ -4777,16 +5235,16 @@ __metadata:
     "@types/testing-library__jest-dom": 5.9.5
     core-js: ^3.0.0
     framer-motion: ^5.3.3
-    next: ^12
+    next: ">=12"
     next-connect: ^0.11.0
     next-translate: ^1.0.0
-    react: ^17
-    react-dom: ^17
+    react: ">=17"
+    react-dom: ">=17"
     uuid: ^8.3.2
   peerDependencies:
-    next: ^12
-    react: ^17
-    react-dom: ^17
+    next: ">=12"
+    react: ">=17"
+    react-dom: ">=17"
   languageName: unknown
   linkType: soft
 
@@ -5392,7 +5850,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"uuid@npm:^8.3.2":
+"uuid@npm:^8.3, uuid@npm:^8.3.2":
   version: 8.3.2
   resolution: "uuid@npm:8.3.2::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fuuid%2F-%2Fuuid-8.3.2.tgz"
   bin:
@@ -5414,6 +5872,16 @@ __metadata:
   dependencies:
     loose-envify: ^1.0.0
   checksum: 4f2cb6a9575e4faf71ddad9ad1ae7a00d0a75d24521c193fa464f30e6b04027bd97aa5d9546b0e13d3a150ab402eda216d59c1d0f2d6ca60124d96cd40dfa35c
+  languageName: node
+  linkType: hard
+
+"watchpack@npm:2.1.1":
+  version: 2.1.1
+  resolution: "watchpack@npm:2.1.1::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fwatchpack%2F-%2Fwatchpack-2.1.1.tgz"
+  dependencies:
+    glob-to-regexp: ^0.4.1
+    graceful-fs: ^4.1.2
+  checksum: 4a2d7ed1b441814b232db9c065beaee40ad0e37f77279331d663fa950b6b1926210a8dfa6009dc806b248f15d48826c9c6ce1a7fd6e6c94178d13c6c0a33f32c
   languageName: node
   linkType: hard
 
