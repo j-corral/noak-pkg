@@ -1,0 +1,22 @@
+---
+description: 'Function GetComponents'
+labels: ['noak', 'functions', 'GetComponents']
+---
+
+import { GetComponents } from './get-components';
+
+## Description
+
+Return an object containing Selected components (Noak + Unagui + MDX)
+
+### Function sage
+
+```js
+import { GetComponents } from '@hoomies/noak.functions.get-components';
+
+const selectedComponents = GetComponents({ names: ['Unagui.Hero', 'Unagui.Section', 'Noak.LocaleSwitcher'] });
+// result = { h1: [Function: h1], p: [Function: p], ...,'Unagui.Hero': [Function], 'Unagui.Section': [Function], 'Noak.LocaleSwitcher': [Function]}
+
+const withoutMDX = GetComponents({ names: ['Unagui.Hero', 'Unagui.Section'], withMDX: false });
+// result = { 'Unagui.Hero': [Function], 'Unagui.Section': [Function], 'Noak.LocaleSwitcher': [Function]}
+```
