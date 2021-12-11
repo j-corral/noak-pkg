@@ -135,6 +135,17 @@
         }
       }
     },
+    "components/mdx/converter": {
+      "teambit.dependencies/dependency-resolver": {
+        // this creates dependencies overrides for the current variant
+        "policy": {
+          "dependencies": {
+            "next-mdx-remote": "^3.0.8",
+            "gray-matter": "^4.0.3",
+          }
+        }
+      }
+    },
     "functions/get-components": {
       "teambit.dependencies/dependency-resolver": {
         // this creates dependencies overrides for the current variant
@@ -142,7 +153,7 @@
           "dependencies": {
             "@hoomies/fuel.types.object": "^0.0.2",
             "@hoomies/fuel.functions.filter.object.prop": "^0.0.2",
-            "@hoomies/unagui.functions.get-components": "^0.0.2"
+            "@hoomies/unagui.functions.get-components": "^0.0.3"
           }
         }
       }

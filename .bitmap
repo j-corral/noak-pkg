@@ -15,6 +15,12 @@
         "mainFile": "index.ts",
         "rootDir": "components/footer"
     },
+    "components/mdx/converter": {
+        "scope": "hoomies.noak",
+        "version": "0.0.3",
+        "mainFile": "index.ts",
+        "rootDir": "components/mdx/converter"
+    },
     "components/navigation/item": {
         "scope": "hoomies.noak",
         "version": "0.0.4",
@@ -41,7 +47,7 @@
     },
     "functions/get-components": {
         "scope": "hoomies.noak",
-        "version": "0.0.3",
+        "version": "0.0.4",
         "mainFile": "index.ts",
         "rootDir": "functions/get-components"
     },
