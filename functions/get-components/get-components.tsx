@@ -22,7 +22,7 @@ export function GetComponents({ names = [], withMDX = true }: GetComponentsProps
   const noakNames = names.filter((name) => name.startsWith('Noak'));
   const filteredNoakComponents = FilterObjectProp({ keys: noakNames, item: NoakComponents });
 
-  let selectedComponents: TDObject = { ...filteredUnaguiComponents, ...filteredNoakComponents };
+  const selectedComponents: TDObject = { ...filteredUnaguiComponents, ...filteredNoakComponents };
 
   return selectedComponents;
 }
