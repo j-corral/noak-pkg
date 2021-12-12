@@ -1670,9 +1670,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@hoomies/unagui.functions.get-components@npm:^0.0.3":
-  version: 0.0.3
-  resolution: "@hoomies/unagui.functions.get-components@npm:0.0.3::__archiveUrl=https%3A%2F%2Fnode.bit.dev%2F%40hoomies%2Funagui.functions.get-components%2F-%2F%40hoomies-unagui.functions.get-components-0.0.3.tgz"
+"@hoomies/unagui.functions.get-components@npm:^0.0.4":
+  version: 0.0.4
+  resolution: "@hoomies/unagui.functions.get-components@npm:0.0.4::__archiveUrl=https%3A%2F%2Fnode.bit.dev%2F%40hoomies%2Funagui.functions.get-components%2F-%2F%40hoomies-unagui.functions.get-components-0.0.4.tgz"
   dependencies:
     "@hoomies/fuel.functions.filter.object.prop": 0.0.2
     "@hoomies/fuel.types.object": 0.0.2
@@ -1693,7 +1693,7 @@ __metadata:
     next: ">=12"
     react: ^16.8.0 || ^17.0.0
     react-dom: ^16.8.0 || ^17.0.0
-  checksum: b18df06910d4a5d427116164962810ba1111185eedb9273a02ea2acfd4a661ac22201b30092cf65c4fa277782c21a62cab6fdc9bb6dfef154b4ea85741e1923a
+  checksum: 05250ccc852c5f7a3924ac1695a9f600ca08d8c6104c440880fa2edfb9a54a613937f5277b4c45020fc3e50bc2f8ebd9932a6db314b940e1f22c1a9f00906b69
   languageName: node
   linkType: hard
 
@@ -6100,7 +6100,7 @@ __metadata:
     "@hoomies/unagui.components.footer": 0.0.6
     "@hoomies/unagui.components.selector": ^0.0.10
     "@hoomies/unagui.components.switcher.theme": ^0.0.6
-    "@hoomies/unagui.functions.get-components": ^0.0.3
+    "@hoomies/unagui.functions.get-components": ^0.0.4
     "@hoomies/unagui.theme.wrapper": ^0.0.8
     "@testing-library/react": 12.1.2
     "@types/jest": ^26.0.0
