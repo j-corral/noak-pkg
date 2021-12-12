@@ -17,7 +17,7 @@
     },
     "components/mdx/converter": {
         "scope": "hoomies.noak",
-        "version": "0.0.4",
+        "version": "0.0.5",
         "mainFile": "index.ts",
         "rootDir": "components/mdx/converter"
     },
@@ -47,7 +47,7 @@
     },
     "functions/get-components": {
         "scope": "hoomies.noak",
-        "version": "0.0.4",
+        "version": "0.0.5",
         "mainFile": "index.ts",
         "rootDir": "functions/get-components"
     },
