@@ -9,7 +9,7 @@ import { Menu } from './menu';
 ### Component usage
 
 ```js
-import { Menu } from '@hoomies/noak.component.navigation.menu';
+import { Menu } from '@hoomies/noak.components.navigation.menu';
 
 const routes = [
   {
@@ -17,6 +17,11 @@ const routes = [
     label: 'Home',
     path: '/',
     icon: '',
+  },
+  {
+    label: 'menu:page.legal',
+    path: '/legal',
+    lang: { fr: '/mentions-legales', en: '/en/legal-notice' },
   },
 ];
 <Menu routes={routes} />;

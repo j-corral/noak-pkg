@@ -15,6 +15,11 @@ const routes = [
     path: '/',
     icon: '',
   },
+  {
+    label: 'menu:page.legal',
+    path: '/legal',
+    lang: { fr: '/mentions-legales', en: '/en/legal-notice' },
+  },
 ];
 
 export const Primary = () => <Template routes={routes} />;
