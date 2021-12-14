@@ -5037,7 +5037,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"next-translate@npm:^1.0.0":
+"next-translate@npm:^1.2.0":
   version: 1.2.0
   resolution: "next-translate@npm:1.2.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fnext-translate%2F-%2Fnext-translate-1.2.0.tgz"
   peerDependencies:
@@ -6114,7 +6114,7 @@ __metadata:
     next: ">=12"
     next-connect: ^0.11.0
     next-mdx-remote: ^3.0.8
-    next-translate: ^1.0.0
+    next-translate: ^1.2.0
     react: ">=17"
     react-dom: ">=17"
     uuid: ^8.3.2

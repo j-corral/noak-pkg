@@ -11,43 +11,43 @@
 {
     "components/footer": {
         "scope": "hoomies.noak",
-        "version": "0.0.2",
+        "version": "0.0.6",
         "mainFile": "index.ts",
         "rootDir": "components/footer"
     },
     "components/mdx/converter": {
         "scope": "hoomies.noak",
-        "version": "0.0.5",
+        "version": "0.0.9",
         "mainFile": "index.ts",
         "rootDir": "components/mdx/converter"
     },
     "components/navigation/item": {
         "scope": "hoomies.noak",
-        "version": "0.0.4",
+        "version": "0.0.8",
         "mainFile": "index.ts",
         "rootDir": "components/navigation/item"
     },
     "components/navigation/menu": {
         "scope": "hoomies.noak",
-        "version": "0.0.6",
+        "version": "0.0.10",
         "mainFile": "index.ts",
         "rootDir": "components/navigation/menu"
     },
     "components/switcher/locale": {
         "scope": "hoomies.noak",
-        "version": "0.0.10",
+        "version": "0.0.11",
         "mainFile": "index.ts",
         "rootDir": "components/switcher/locale"
     },
     "components/switcher/theme": {
         "scope": "hoomies.noak",
-        "version": "0.0.4",
+        "version": "0.0.5",
         "mainFile": "index.ts",
         "rootDir": "components/switcher/theme"
     },
     "functions/get-components": {
         "scope": "hoomies.noak",
-        "version": "0.0.5",
+        "version": "0.0.9",
         "mainFile": "index.ts",
         "rootDir": "functions/get-components"
     },
