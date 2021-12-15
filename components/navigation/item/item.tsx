@@ -1,38 +1,18 @@
-import React from 'react';
+import React, { useMemo } from 'react';
 
 import { Button, ButtonProps, Link } from '@chakra-ui/react';
 import NextLink from 'next/link';
 import useTranslation from 'next-translate/useTranslation';
 
 import { Capitalize } from '@hoomies/fuel.functions.capitalize';
-import { TDObject } from '@hoomies/fuel.types.object';
+import { TRoute } from '@hoomies/noak.types.route';
+import { getSeoPath } from '@hoomies/noak.functions.route';
 
 export type ItemProps = {
   /**
    * @description An Object containing the route config
    */
-  link: {
-    /**
-     * @description The display name of the link (shown in menu)
-     */
-    label: string;
-    /**
-     * @description The real path of the link
-     */
-    path: string;
-    /**
-     * @description If True, the label will not be translated
-     */
-    literal?: boolean;
-    /**
-     * @description The seo optimized path of the link for each language
-     */
-    lang?: TDObject;
-    /**
-     *  @description The Icon of the link (displayed in menu next to the label)
-     */
-    icon?: string;
-  };
+  link: TRoute;
   /**
    * @description The appearance of the link (see Chakra UI Button docs)
    */
@@ -64,7 +44,7 @@ export function Item({ link, button = DefaultButtonProps, isExternal = false }: 
 
   const ButtonText = link?.literal ? link.label : t(link.label, {}, { default: pathName });
 
-  const href = getSeoPath(link, lang);
+  const href = useMemo(() => getSeoPath(link, lang), [link?.path, lang]);
 
   return (
     <>
@@ -77,20 +57,4 @@ export function Item({ link, button = DefaultButtonProps, isExternal = false }: 
       </Button>
     </>
   );
-}
-
-/**
- * Get the path that matches the current locale if defined
- * @param link The link object containing the path and the lang properties
- * @param locale current locale
- * @returns the path of the link
- */
-export function getSeoPath(link: ItemProps['link'], locale: string) {
-  let href = link.path;
-
-  if (link?.lang && link?.lang?.hasOwnProperty(locale)) {
-    href = link.lang[locale];
-  }
-
-  return href;
 }
