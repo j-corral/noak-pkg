@@ -32,7 +32,7 @@ export const DefaultButtonProps = {
   color: 'gray.500',
   display: 'inline-flex',
   fontSize: 'lg',
-  _focus: { boxShadow: 'none' },
+  _focus: { boxShadow: 'none', outline: 'none' },
   _hover: { color: 'black' },
 };
 
@@ -44,7 +44,7 @@ export function Item({ link, button = DefaultButtonProps, isExternal = false }: 
 
   const ButtonText = link?.literal ? link.label : t(link.label, {}, { default: pathName });
 
-  const href = useMemo(() => getSeoPath(link, lang), [link?.path, lang]);
+  const href = useMemo(() => getSeoPath(link, lang), [lang]);
 
   return (
     <>
