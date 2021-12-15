@@ -8,18 +8,18 @@ import { TRoute } from '@hoomies/noak.types.route';
 import { getSeoPath } from '@hoomies/noak.functions.route';
 
 export declare interface LocaleSwitcherProps extends SelectorPublicProps {
-  route: TRoute;
+  route?: TRoute;
 }
 
 export function LocaleSwitcher({ route, ...rest }: LocaleSwitcherProps) {
   const { t } = useTranslation();
-  const { locale, locales, pathname, query, push } = useRouter();
+  const { asPath, locale, locales, pathname, query, push } = useRouter();
 
   const [selectedValue, setSelectedValue] = React.useState(locale ?? '');
-  const href: string = React.useMemo(() => getSeoPath(route, locale), [selectedValue]);
 
   const handleLocaleChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
     setSelectedValue(event.target.value);
+    const href = typeof route === 'object' ? getSeoPath(route, event.target.value) : asPath;
     push({ pathname, query }, href, { locale: `${event.target.value}` });
   };
 
@@ -34,5 +34,13 @@ export function LocaleSwitcher({ route, ...rest }: LocaleSwitcherProps) {
     return selectOptions;
   }, [locales, locale]);
 
-  return <Selector options={options} selected={selectedValue} onChange={handleLocaleChange} {...rest} />;
+  return (
+    <Selector
+      title="Locale Switcher"
+      options={options}
+      selected={selectedValue}
+      onChange={handleLocaleChange}
+      {...rest}
+    />
+  );
 }
