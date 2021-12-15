@@ -1,0 +1,43 @@
+---
+description: 'Type Route.'
+labels: ['noak', 'type', 'route']
+---
+
+## Description
+
+Custom route type used to generate links.
+
+## Available types
+
+### TRoute
+
+```tsx
+export type TRoute = {
+  /**
+   * @description The display name of the link (shown in menu)
+   */
+  label: string;
+  /**
+   * @description The real path of the link
+   */
+  path: string;
+  /**
+   * @description If True, the label will not be translated
+   */
+  literal?: boolean;
+  /**
+   * @description The seo optimized path of the link for each language
+   */
+  lang?: TDObject;
+  /**
+   *  @description The Icon of the link (displayed in menu next to the label)
+   */
+  icon?: string;
+};
+```
+
+### TRoutes
+
+```tsx
+export type TRoutes = TRoute[];
+```
