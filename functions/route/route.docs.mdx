@@ -1,0 +1,60 @@
+---
+description: 'Function Route'
+labels: ['noak', 'functions', 'route']
+---
+
+## Description
+
+Helper functions for working with routes.
+
+## Available Functions
+
+### getSeoPath
+
+Get the path that matches the current locale if defined
+
+```tsx
+import { getSeoPath } from '@hoomies/noak.functions.route'';
+
+const link = {
+  label: 'Legal',
+  path: '/p/legal',
+  lang: {
+    en: '/legal-notice',
+    fr: '/mentions-legales',
+  },
+};
+
+const lang = 'fr'
+const href = getSeoPath(link, lang);
+// href = '/mentions-legales'
+
+// If no lang is defined, return the path : '/p/legal'
+
+```
+
+### createRoute
+
+Helper to create a TRoute object
+
+```tsx
+import { createRoute } from '@hoomies/noak.functions.route'';
+
+const link = createRoute('Legal', '/p/legal', {
+  en: '/legal-notice',
+  fr: '/mentions-legales',
+}, true);
+
+/*
+link = {
+  label: 'Legal',
+  path: '/p/legal',
+  lang: {
+    en: '/legal-notice',
+    fr: '/mentions-legales',
+  },
+  litteral: true,
+};
+*/
+
+```
