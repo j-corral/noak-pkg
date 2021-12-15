@@ -50,7 +50,12 @@ export function Item({ link, button = DefaultButtonProps, isExternal = false }: 
     <>
       <Button {...button}>
         <NextLink href={href} passHref>
-          <Link href={href} _hover={{ textDecoration: 'none' }} isExternal={isExternal}>
+          <Link
+            href={href}
+            _hover={{ textDecoration: 'none' }}
+            _focus={{ boxShadow: 'none', outline: 'none' }}
+            isExternal={isExternal}
+          >
             <Capitalize>{ButtonText}</Capitalize>
           </Link>
         </NextLink>
