@@ -13,10 +13,10 @@ export declare interface LocaleSwitcherProps extends SelectorPublicProps {
 
 export function LocaleSwitcher({ route, ...rest }: LocaleSwitcherProps) {
   const { t } = useTranslation();
-  const { locale, locales, pathname, asPath, query, push } = useRouter();
+  const { locale, locales, pathname, query, push } = useRouter();
 
   const [selectedValue, setSelectedValue] = React.useState(locale ?? '');
-  const href: string = React.useMemo(() => getSeoPath(route, locale, asPath), [selectedValue]);
+  const href: string = React.useMemo(() => getSeoPath(route, locale), [selectedValue]);
 
   const handleLocaleChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
     setSelectedValue(event.target.value);
